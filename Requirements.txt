@@ -1,5 +1,18 @@
-pandas
-streamlit
+# Core packages
+streamlit==1.49.1
+pandas==2.3.2
+numpy==2.3.3
+
+# Excel support
 openpyxl
-plotly
+
+# Optional packages if you use charts or data visualization
+altair==5.5.0
+pydeck==0.9.1
+
+# Utilities / dependencies
+python-dateutil==2.9.0.post0
+pytz==2025.2
+requests==2.32.5
+six==1.17.0
 
