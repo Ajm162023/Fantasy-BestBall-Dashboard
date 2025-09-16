@@ -6,6 +6,7 @@ from itertools import combinations
 # Load Data
 # ----------------------------
 file_path = "Fantasy_BestBall_EntryPoolAndLineups.xlsx"
+df = pd.read_excel(file_path)
 
 try:
     df = pd.read_excel(file_path)
